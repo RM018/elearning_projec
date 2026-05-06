@@ -11,28 +11,33 @@ export default function HomePage() {
       <Header />
       
       <main>
-        <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <section
+          className="relative bg-cover bg-center text-white"
+          style={{ backgroundImage: "url('/images/rural-education.jpg')" }}
+        >
+          <div className="absolute inset-0 bg-black/50" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28">
             <div className="text-center">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-                Welcome to EduLearn
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4">
+                Empowering Rural Education
               </h1>
-              <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto">
-                Your comprehensive e-learning platform with interactive courses, live chat, and YouTube video integration
+              <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto text-gray-100">
+                Bringing quality learning to rural communities — teacher training, community
+                classrooms, and practical skills for local livelihoods.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   href="/courses"
-                  className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+                  className="inline-flex items-center justify-center bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
                   Explore Courses
                   <ArrowRightIcon className="ml-2 h-5 w-5" />
                 </Link>
                 <Link
                   href="/chat"
-                  className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+                  className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-700 transition-colors"
                 >
-                  Join Live Chat
+                  Join Community Chat
                 </Link>
               </div>
             </div>
@@ -43,10 +48,11 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-                Why Choose EduLearn?
+                Why Rural Communities Choose EduLearn
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Experience modern learning with our feature-rich platform designed for success
+                Practical, locally-relevant learning built for accessibility, teacher support, and
+                community impact.
               </p>
             </div>
 
@@ -55,9 +61,9 @@ export default function HomePage() {
                 <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <PlayIcon className="h-8 w-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Video Courses</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Offline & Low-Bandwidth</h3>
                 <p className="text-gray-600">
-                  High-quality video lessons with YouTube integration for seamless learning
+                  Downloadable lessons and lightweight pages for areas with limited connectivity.
                 </p>
               </div>
 
@@ -65,9 +71,9 @@ export default function HomePage() {
                 <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <UserGroupIcon className="h-8 w-8 text-green-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Live Chat</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Teacher Training</h3>
                 <p className="text-gray-600">
-                  Connect with instructors and fellow learners in real-time discussions
+                  Practical pedagogy and classroom management tools to support rural educators.
                 </p>
               </div>
 
@@ -75,9 +81,9 @@ export default function HomePage() {
                 <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <BookOpenIcon className="h-8 w-8 text-purple-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Expert Content</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Local Language Support</h3>
                 <p className="text-gray-600">
-                  Curated courses from industry experts and experienced instructors
+                  Courses and materials available in regional languages for better comprehension.
                 </p>
               </div>
 
@@ -85,9 +91,9 @@ export default function HomePage() {
                 <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <ChatBubbleLeftRightIcon className="h-8 w-8 text-orange-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Interactive Learning</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Community Projects</h3>
                 <p className="text-gray-600">
-                  Engage with content through quizzes, assignments, and collaborative projects
+                  Project-based learning that connects students with local needs and livelihoods.
                 </p>
               </div>
             </div>
