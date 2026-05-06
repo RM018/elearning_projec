@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#ECFCCB"/>
+  <g transform="translate(60,40)">
+    <rect width="680" height="370" rx="18" fill="#fff" opacity="0.9"/>
+    <g transform="translate(40,40)">
+      <rect x="0" y="0" width="240" height="160" rx="12" fill="#34D399"/>
+      <text x="120" y="95" text-anchor="middle" font-size="36" fill="#fff" font-family="Arial">Farm</text>
+      <g transform="translate(300,0)">
+        <circle cx="60" cy="60" r="60" fill="#FECACA"/>
+        <path d="M30 110 L90 110 L60 60 Z" fill="#7C3AED" opacity="0.9"/>
+      </g>
+      <text x="20" y="220" font-size="28" fill="#064E3B" font-family="Arial">Kitchen gardens and seed saving</text>
+    </g>
+  </g>
+</svg>

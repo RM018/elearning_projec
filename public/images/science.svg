@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#FEF3C7"/>
+  <g transform="translate(60,60)">
+    <rect width="680" height="330" rx="18" fill="#fff" opacity="0.95"/>
+    <g transform="translate(40,40)" fill="#0F172A">
+      <circle cx="80" cy="80" r="60" fill="#60A5FA"/>
+      <text x="80" y="95" text-anchor="middle" font-size="36" fill="#fff">Why?</text>
+      <text x="200" y="40" font-size="24">Water cycle, soil, seeds and weather</text>
+      <rect x="200" y="80" width="320" height="120" rx="10" fill="#D1FAE5"/>
+    </g>
+  </g>
+</svg>

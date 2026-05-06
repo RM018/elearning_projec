@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#FFF7ED"/>
+  <g transform="translate(60,60)">
+    <rect width="680" height="330" rx="18" fill="#fff"/>
+    <g transform="translate(40,40)">
+      <rect x="0" y="0" width="140" height="140" rx="12" fill="#FDE68A"/>
+      <path d="M30 110 L110 110 L70 40 Z" fill="#F97316"/>
+      <text x="220" y="60" font-size="28" fill="#92400E">Making and selling simple crafts</text>
+      <text x="220" y="100" font-size="20" fill="#92400E">Saving money and tiny businesses</text>
+    </g>
+  </g>
+</svg>
